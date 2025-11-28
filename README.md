@@ -1,4 +1,4 @@
-# 🧗 Professional Climbing Performance Analysis
+#Professional Climbing Performance Analysis
 
 This project explores trends in **professional sport climbing performance** using historical competition data. We analyze how performance changes with **age, gender, and country**, as well as how the professional climbing landscape has evolved over time.
 
@@ -10,7 +10,7 @@ The goal is to extract meaningful insights about:
 
 ---
 
-## 📊 Dataset Summary
+##Dataset Summary
 
 This dataset consists of professional climbing competition results collected across multiple decades.
 
@@ -22,7 +22,7 @@ This dataset consists of professional climbing competition results collected acr
 
 ---
 
-## 🎯 Project Objectives
+##Project Objectives
 
 1. Analyze how **age impacts performance** for male and female climbers.
 2. Investigate whether the **average age of competitors** is trending younger over time.
@@ -32,7 +32,7 @@ This dataset consists of professional climbing competition results collected acr
 
 ---
 
-## 📈 Key Findings
+##Key Findings
 
 ### 1. Age vs Performance
 - Raw performance scores were **left-skewed**, with most climbers aged **18–30** scoring between **0–58 points**.
@@ -92,7 +92,7 @@ By 2019:
 
 ---
 
-## 🧠 Model Insights
+##Model Insights
 
 - Polynomial regression only worked effectively **after feature engineering** via score averaging.
 - Raw climbing performance shows high variance and noise—aging effects are clearer when smoothing is applied.
@@ -100,7 +100,7 @@ By 2019:
 
 ---
 
-## ⚠️ Limitations
+##Limitations
 
 1. **Data completeness:** Not all competitions or athletes may be represented.
 2. **Scoring consistency:** Scoring systems may have evolved over time.
@@ -110,7 +110,7 @@ By 2019:
 
 ---
 
-## 📦 Deliverables
+##Deliverables
 
 This project includes:
 - Full EDA notebook
@@ -123,7 +123,7 @@ This project includes:
 
 ---
 
-## ✅ Final Notes
+##Final Notes
 
 This project reveals a clear evolution of professional sport climbing:
 - Performance peaks are well-defined by age and gender.
